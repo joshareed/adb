@@ -13,14 +13,14 @@ class User {
 	String firstName
 	String lastName
 	String email
-	// TODO: contact info
+	Profile profile = new Profile()
 
 	static constraints = {
-		username blank: false, unique: true
-		password blank: false
-		firstName blank: false
-		lastName blank: false
-		email blank: false
+		username	blank: false, unique: true
+		password	blank: false
+		firstName	blank: false
+		lastName	blank: false
+		email		blank: false
 	}
 
 	static mapping = {
