@@ -13,7 +13,16 @@ class User {
 	String firstName
 	String lastName
 	String email
-	Profile profile = new Profile()
+
+	// contact info
+	String department = ""
+	String institution = ""
+	String address1 = ""
+	String address2 = ""
+	String city = ""
+	String state = ""
+	String postalCode = ""
+	String country = ""
 
 	static constraints = {
 		username	blank: false, unique: true
@@ -21,6 +30,14 @@ class User {
 		firstName	blank: false
 		lastName	blank: false
 		email		blank: false
+		department  blank: true
+		institution blank: true
+		address1    blank: true
+		address2    blank: true
+		city        blank: true
+		state       blank: true
+		postalCode  blank: true
+		country     blank: true
 	}
 
 	static mapping = {
