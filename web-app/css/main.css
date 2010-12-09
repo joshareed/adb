@@ -16,8 +16,9 @@ body {
     color: #333;
     font: 11px verdana, arial, helvetica, sans-serif;
 }
-#grailsLogo {
-	padding:20px;
+#logo {
+	padding: 5px;
+	margin-bottom: 5px;
 }
 
 a:link, a:visited, a:hover {
@@ -92,6 +93,11 @@ input:focus, select:focus, textarea:focus {
 }
 .menuButton a.create {
     background: url(../images/skin/database_add.png) center left no-repeat;
+    color: #333;
+    padding-left: 25px;
+}
+.menuButton a.edit {
+	background: url(../images/skin/database_edit.png) center left no-repeat;
     color: #333;
     padding-left: 25px;
 }

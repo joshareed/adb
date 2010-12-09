@@ -43,6 +43,8 @@
 </head>
 
 <body>
+	<div class="nav">
+	</div>
 	<div id='login'>
 		<div class='inner'>
 			<g:if test='${flash.message}'>
