@@ -5,6 +5,8 @@
 		<title>Home</title>
 	</head>
 	<body>
+		<div class="nav">
+		</div>
 		<div class="body">
 			<h1>Home</h1>
 		</div>

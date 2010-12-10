@@ -20,7 +20,7 @@
 						<a class="home" href="${createLink(uri:'/')}">Home</a>
 					</span>
 					<span class="menuButton">
-						<a class="edit" href="${createLink(uri:'/user/edit')}">Settings</a>
+						<a class="edit" href="${createLink(uri:'/home/profile')}">Settings</a>
 					</span>
 					<span class="menuButton">
 						<a class="logout" href="${createLink(uri:'/logout')}">Logout</a>
