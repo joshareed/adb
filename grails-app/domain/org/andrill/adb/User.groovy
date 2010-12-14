@@ -30,14 +30,14 @@ class User {
 		firstName	blank: false
 		lastName	blank: false
 		email		blank: false
-		department  blank: true
+		department	blank: true
 		institution blank: true
-		address1    blank: true
-		address2    blank: true
-		city        blank: true
-		state       blank: true
-		postalCode  blank: true
-		country     blank: true
+		address1	blank: true
+		address2	blank: true
+		city		blank: true
+		state		blank: true
+		postalCode	blank: true
+		country		blank: true
 	}
 
 	static mapping = {
