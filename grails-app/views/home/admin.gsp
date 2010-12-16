@@ -7,7 +7,10 @@
 	<body>
 		<div class="nav">
 			<span class="menuButton">
-				<g:link class="list" controller="user" action="list">Manage Users</g:link>
+				<g:link class="user" controller="user" action="list">Manage Users</g:link>
+			</span>
+			<span class="menuButton">
+				<g:link class="citation" controller="citation" action="list">Manage Citations</g:link>
 			</span>
 		</div>
 		<div class="body">

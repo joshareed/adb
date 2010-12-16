@@ -6,6 +6,9 @@
 	</head>
 	<body>
 		<div class="nav">
+			<span class="menuButton">
+				<g:link class="citation" controller="citation" action="list">Manage Citations</g:link>
+			</span>
 		</div>
 		<div class="body">
 			<h1>Home</h1>
