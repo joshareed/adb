@@ -24,7 +24,6 @@
 				<table>
 					<thead>
 						<tr>
-							<g:sortableColumn property="id" title="${message(code: 'user.id.label', default: 'Id')}" />
 							<g:sortableColumn property="username" title="${message(code: 'user.username.label', default: 'Username')}" />
 							<g:sortableColumn property="firstName" title="${message(code: 'user.firstName.label', default: 'First Name')}" />
 							<g:sortableColumn property="lastName" title="${message(code: 'user.lastName.label', default: 'Last Name')}" />
@@ -34,7 +33,6 @@
 					<tbody>
 					<g:each in="${userInstanceList}" status="i" var="userInstance">
 						<tr class="${(i % 2) == 0 ? 'odd' : 'even'}">
-							<td><g:link action="show" id="${userInstance.id}">${fieldValue(bean: userInstance, field: "id")}</g:link></td>
 							<td><g:link action="show" id="${userInstance.id}">${fieldValue(bean: userInstance, field: "username")}</g:link></td>
 							<td>${fieldValue(bean: userInstance, field: "firstName")}</td>
 							<td>${fieldValue(bean: userInstance, field: "lastName")}</td>
