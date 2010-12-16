@@ -109,8 +109,18 @@ input:focus, select:focus, textarea:focus {
 	color: #333;
 	padding-left: 25px;
 }
+.menuButton a.user-add {
+	background: url(../images/skin/user_add.png) center left no-repeat;
+	color: #333;
+	padding-left: 25px;
+}
 .menuButton a.citation {
 	background: url(../images/skin/book.png) center left no-repeat;
+	color: #333;
+	padding-left: 25px;
+}
+.menuButton a.citation-add {
+	background: url(../images/skin/book_add.png) center left no-repeat;
 	color: #333;
 	padding-left: 25px;
 }
